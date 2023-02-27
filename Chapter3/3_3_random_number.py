@@ -7,12 +7,15 @@ def rand_number():
     print("I'm thinking of a number between 1 and 100!")
     guess = int(input("What do you think it is?"))
 
-    if number == guess:
-        print("Oh snap, you got it!")
-    elif number > guess:
-        print("Nope, higher")
-    else:
-        print("Nope, lower")
+    while guess:
+        if number == guess:
+            print("Good job, champ! You guessed it!")
+            break
+        elif number > guess:
+            print("Sorry bud, too loo. Go higher!")
+        else:
+            print("Bruh... Too high, try a lower number!")
+        guess = int(input("Number???"))
 
 
 rand_number()
