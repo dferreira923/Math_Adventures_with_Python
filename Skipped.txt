@@ -1,0 +1,1 @@
+These chapters were skipped because they didn't focus on solving math problems using python, rather, they rely on a tool called processing. 
